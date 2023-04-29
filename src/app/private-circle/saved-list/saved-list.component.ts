@@ -27,7 +27,6 @@ export class SavedListComponent implements OnInit {
   ngOnInit(): void {
     this.emit.getSearchValue.subscribe(
       (resp:any)=>{
-        console.log(resp);
         this.dataSource.filter = resp;
       }
     )

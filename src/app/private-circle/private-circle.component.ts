@@ -14,7 +14,6 @@ export class PrivateCircleComponent implements OnInit {
   ngOnInit(): void {
   }
   moveTo(event:any){
-    console.log(event);
     if(event.index==0){
       this.router.navigate(['/private-circle/saved'])
     }
@@ -27,7 +26,6 @@ export class PrivateCircleComponent implements OnInit {
     
   }
   search(event:any){
-    // console.log(event.target.value);
     this.emit.sendSearchValue(event.target.value)
     
   }
