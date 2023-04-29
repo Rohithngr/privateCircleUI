@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+  }
+  .mat-column-list_name{
+  width: 500px;
+  }
+  .mat-column-action{
+  width: 150px;
+  }
+  .details-btn-selected{
+    border: none;
+    border-bottom: solid 1px #056cb5;
+    background-color: white;
+    color: #056cb5;
+    font-weight: 500;
+  }
+  .details-btn{
+    border: none;
+    background-color: inherit;
+    color: #056cb5;
+    font-weight: 500;
+  }
+  .box{
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  .card-body{
+    background-color: #F5F5F5;
+  }
+ul{
+  list-style: none;
+  padding: 0px;
+}
+li{
+  line-height: 35px;
+  color: #056cb5;
+}
+.card .details-btn{
+  font-size: 12px;
+}
+mat-icon{
+  color: #626262;
+  font-size: 18px;
+}
+.mat-row:hover {
+  background-color: #f5f5f5;
+}
